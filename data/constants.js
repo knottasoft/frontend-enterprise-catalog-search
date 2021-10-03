@@ -57,7 +57,7 @@ export var QUERY_PARAM_FOR_FEATURE_FLAGS = 'features';
 export var QUERY_PARAMS_TO_IGNORE = [QUERY_PARAM_FOR_SEARCH_QUERY, QUERY_PARAM_FOR_PAGE, QUERY_PARAM_FOR_FEATURE_FLAGS, SHOW_ALL_NAME];
 export var NUM_CURRENT_REFINEMENTS_TO_DISPLAY = 3;
 export var NUM_RESULTS_PER_PAGE = 24;
-export var NO_OPTIONS_FOUND = 'No options found.';
+export var NO_OPTIONS_FOUND = 'Варианты не найдены.';
 export var STYLE_VARIANTS = {
   default: 'default',
   inverse: 'inverse'
