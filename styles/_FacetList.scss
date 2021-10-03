@@ -1,0 +1,49 @@
+$facet-dropdown-max-height: 250px;
+
+.facet-list {
+  .dropdown {
+    @extend .mb-3;
+
+    .facet-item-label {
+      font-weight: normal;
+
+      &.is-refined {
+        font-weight: 700;
+      }
+    }
+
+    input:focus + .facet-item-label {
+      text-decoration: underline;
+    }
+
+    .dropdown-menu {
+      max-height: $facet-dropdown-max-height;
+      overflow: scroll;
+      max-width: 420px;
+      width: max-content;
+
+      .dropdown-item {
+        padding-left: 30px;
+        white-space: break-spaces;
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+  }
+  .typeahead {
+    .dropdown-menu {
+      max-height: unset;
+      overflow-y: unset;
+          .typeahead-dropdown-menu-scrollable-items {
+        max-height: $facet-dropdown-max-height;
+        overflow-y: scroll;
+      }
+    }
+  }
+
+}
+
+.bg-brand-primary--default {
+  background-color: $primary-700;
+  color: $white;
+}
