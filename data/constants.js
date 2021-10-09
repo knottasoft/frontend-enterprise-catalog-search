@@ -36,7 +36,7 @@ export var SEARCH_FACET_FILTERS = [{
   }
 }, {
   attribute: 'level_type',
-  title: 'Level'
+  title: 'Уровень'
 }, {
   attribute: 'availability',
   title: 'Доступность'
